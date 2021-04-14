@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': "myFirstDatabase",
         'CLIENT':{
-            'host' : 'mongodb+srv://admin:vjd23052000@cluster0.tm3nu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+            'host' : 'mongodb+srv://ITadmin:mihir1234@cluster0.3qvhz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
         }
     }
 }

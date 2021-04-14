@@ -1,0 +1,702 @@
+[
+  {
+    "Title": "The Alchemist",
+    "Author": "Paulo Coelho",
+    "Price": 175,
+    "Genre": "Fantasy",
+    "Pages": 154,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542l/18144590._SY475_.jpg"
+  },
+  {
+    "Title": "The Book Theif",
+    "Author": "Markus Zusak",
+    "Price": 248,
+    "Genre": "Fiction",
+    "Pages": 584,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522157426l/19063._SY475_.jpg"
+  },
+  {
+    "Title": "Ikigai",
+    "Author": "Hector Garcia & Francsec Miralles",
+    "Price": 499,
+    "Genre": "Self help",
+    "Pages": 192,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.6,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456092979l/28787203.jpg"
+  },
+  {
+    "Title": "A New Idea of India",
+    "Author": "Harsh Madhusudhan & Rajeev Mantri",
+    "Price": 500,
+    "Genre": "Non Fiction",
+    "Pages": 384,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598332910l/55113347._SY475_.jpg"
+  },
+  {
+    "Title": "The 5 am club",
+    "Author": "Robin Sharma",
+    "Price": 204,
+    "Genre": "Self help",
+    "Pages": 299,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.8,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545910967l/37502596._SY475_.jpg"
+  },
+  {
+    "Title": "The hunt for Red October",
+    "Author": "Tom Clancy",
+    "Price": 278,
+    "Genre": "Fiction",
+    "Pages": 296,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281995542l/19691.jpg"
+  },
+  {
+    "Title": "The Complete Book of Yoga",
+    "Author": "Swami Vivekananda",
+    "Price": 139,
+    "Genre": "Non Fiction",
+    "Pages": 432,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446129976l/27388301._SY475_.jpg"
+  },
+  {
+    "Title": "Malgudi Days",
+    "Author": "R.K. Narayan",
+    "Price": 125,
+    "Genre": "Fiction",
+    "Pages": 304,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455574981l/14082.jpg"
+  },
+  {
+    "Title": "Being Different",
+    "Author": "Rajiv Malhotra",
+    "Price": 330,
+    "Genre": "Non Fiction",
+    "Pages": 438,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340783111l/13099825.jpg"
+  },
+  {
+    "Title": "Defence of Hindu Society",
+    "Author": "Sita Ram Goel",
+    "Price": 79,
+    "Genre": "Non Fiction",
+    "Pages": 118,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482061834l/1247546._SY475_.jpg"
+  },
+  {
+    "Title": "The Indian Conservative",
+    "Author": "Jaithirth Rao",
+    "Price": 408,
+    "Genre": "Non Fiction",
+    "Pages": 280,
+    "Type": "Hardcover",
+    "GoodReadsRating": 3.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573201276l/48731638._SX318_.jpg"
+  },
+  {
+    "Title": 1984,
+    "Author": "George Orwell",
+    "Price": 149,
+    "Genre": "Fiction",
+    "Pages": 304,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506l/40961427._SX318_.jpg"
+  },
+  {
+    "Title": "The Godfather",
+    "Author": "Mario Puzo",
+    "Price": 275,
+    "Genre": "Fiction",
+    "Pages": 608,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394988109l/22034._SY475_.jpg"
+  },
+  {
+    "Title": "Decolonizing the Hindu Mind",
+    "Author": "Koenrad Elst",
+    "Price": 595,
+    "Genre": "Non Fiction",
+    "Pages": 657,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476219767l/159330._SY475_.jpg"
+  },
+  {
+    "Title": "Becoming",
+    "Author": "Michelle Obama",
+    "Price": 628,
+    "Genre": "Biography",
+    "Pages": 628,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528206996l/38746485.jpg"
+  },
+  {
+    "Title": "Sapiens",
+    "Author": "Yuval Noah Harari",
+    "Price": 345,
+    "Genre": "Non Fiction",
+    "Pages": 512,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271._SY475_.jpgg"
+  },
+  {
+    "Title": "Unfinished",
+    "Author": "Priyanka Chopra",
+    "Price": 452,
+    "Genre": "Biography",
+    "Pages": 240,
+    "Type": "Hardcover",
+    "GoodReadsRating": 3.8,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606168817l/40599385._SY475_.jpg"
+  },
+  {
+    "Title": "The Prince",
+    "Author": "Niccolo Machiavelli",
+    "Price": 99,
+    "Genre": "Non Fiction",
+    "Pages": 184,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.8,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390055828l/28862.jpg"
+  },
+  {
+    "Title": "The Girl on the Train",
+    "Author": "Paula Hawkins",
+    "Price": 199,
+    "Genre": "Fiction",
+    "Pages": 317,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574805682l/22557272.jpg"
+  },
+  {
+    "Title": "And then there were none",
+    "Author": "Agatha Christie",
+    "Price": 179,
+    "Genre": "Fiction",
+    "Pages": 256,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299.jpg"
+  },
+  {
+    "Title": "The Republic",
+    "Author": "Plato",
+    "Price": 149,
+    "Genre": "Non Fiction",
+    "Pages": 400,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925655l/30289.jpg"
+  },
+  {
+    "Title": "Immortals of Meluha",
+    "Author": "Amish",
+    "Price": 399,
+    "Genre": "Fiction",
+    "Pages": 416,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334659192l/7913305.jpg"
+  },
+  {
+    "Title": "Secret of Nagas",
+    "Author": "Amish",
+    "Price": 450,
+    "Genre": "Fiction",
+    "Pages": 372,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532560274l/40948565._SY475_.jpg"
+  },
+  {
+    "Title": "The Politics",
+    "Author": "Aristotle",
+    "Price": 141,
+    "Genre": "Non Fiction",
+    "Pages": 304,
+    "Type": "Paperback",
+    "GoodReadsRating": 4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347850464i/982463._SX50_.jpg"
+  },
+  {
+    "Title": "Nationalism",
+    "Author": "Rabindranath Tagore",
+    "Price": 70,
+    "Genre": "Non Fiction",
+    "Pages": 120,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401104243l/166312.jpg"
+  },
+  {
+    "Title": "Atomic Habits",
+    "Author": "James Clear",
+    "Price": 445,
+    "Genre": "Self help",
+    "Pages": 226,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535115320l/40121378._SY475_.jpg"
+  },
+  {
+    "Title": "Art of War",
+    "Author": "Sun Tzu",
+    "Price": 70,
+    "Genre": "Non Fiction",
+    "Pages": 100,
+    "Type": "Paperback",
+    "GoodReadsRating": 4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453417993l/10534._SY475_.jpg"
+  },
+  {
+    "Title": "Keepers of Kalachakra",
+    "Author": "Ashwin Sanghi",
+    "Price": 268,
+    "Genre": "Fiction",
+    "Pages": 420,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.8,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512604305i/36982571._SY75_.jpg"
+  },
+  {
+    "Title": "The Krishna Key",
+    "Author": "Ashwin Sanghi",
+    "Price": 297,
+    "Genre": "Fiction",
+    "Pages": 485,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.6,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1341289060l/15733523.jpg"
+  },
+  {
+    "Title": "Chanakya's Chant",
+    "Author": "Ashwin Sanghi",
+    "Price": 300,
+    "Genre": "Fiction",
+    "Pages": 489,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.7,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327939570l/10098912.jpg"
+  },
+  {
+    "Title": "Alex Ferguson: My Autobiography",
+    "Author": "Alex Ferguson",
+    "Price": 489,
+    "Genre": "Biography",
+    "Pages": 448,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380212081l/18588024.jpg"
+  },
+  {
+    "Title": "Bhagavad Gita as it is",
+    "Author": "Swami Prabhupada",
+    "Price": 237,
+    "Genre": "Non Fiction",
+    "Pages": 924,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528088332l/991544._SX318_.jpg"
+  },
+  {
+    "Title": "The ONE Thing",
+    "Author": "Gary W. Keller and Jay Papasan.",
+    "Price": 260,
+    "Genre": "Self help",
+    "Pages": 240,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559563270l/16256798._SX318_.jpg"
+  },
+  {
+    "Title": "Chanakya Neeti",
+    "Author": "Chanakya",
+    "Price": 123,
+    "Genre": "Non Fiction",
+    "Pages": 208,
+    "Type": "Paperback",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576405171l/49246644._SY475_.jpg"
+  },
+  {
+    "Title": "One Hundred Poems of Kabir",
+    "Author": "Rabindranath Tagore",
+    "Price": 125,
+    "Genre": "Non Fiction",
+    "Pages": 140,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387663258l/166351.jpg"
+  },
+  {
+    "Title": "The Power of your subconscious mind",
+    "Author": "Joseph Murphy",
+    "Price": 135,
+    "Genre": "Self help",
+    "Pages": 312,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386924010l/68984.jpg"
+  },
+  {
+    "Title": "Norse Mythology",
+    "Author": "Neil Gaiman",
+    "Price": 304,
+    "Genre": "Fiction",
+    "Pages": 299,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516128292l/37903770._SX318_.jpg"
+  },
+  {
+    "Title": "The Kite Runner",
+    "Author": "Khaled Hosseini",
+    "Price": 352,
+    "Genre": "Fiction",
+    "Pages": 334,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579036753l/77203._SY475_.jpg"
+  },
+  {
+    "Title": "Educated",
+    "Author": "Tara Westover",
+    "Price": 300,
+    "Genre": "Biography",
+    "Pages": 352,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506026635l/35133922._SY475_.jpg"
+  },
+  {
+    "Title": "Way of Kings",
+    "Author": "Brandon Sanderson",
+    "Price": 700,
+    "Genre": "Fantasy",
+    "Pages": 1007,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.6,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388184640l/7235533.jpg"
+  },
+  {
+    "Title": "Rhythm of War",
+    "Author": "Brandon Sanderson",
+    "Price": 1000,
+    "Genre": "Fantasy",
+    "Pages": 1232,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.6,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599911216l/49021976.jpg"
+  },
+  {
+    "Title": "The Final Empire",
+    "Author": "Brandon Sanderson",
+    "Price": 300,
+    "Genre": "Fantasy",
+    "Pages": 541,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617768316l/68428._SY475_.jpg"
+  },
+  {
+    "Title": "Before They were Hanged",
+    "Author": "Joe Abercrombie",
+    "Price": 450,
+    "Genre": "Fantasy",
+    "Pages": 441,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1179318094l/902715._SY475_.jpg"
+  },
+  {
+    "Title": "The Blade Itself",
+    "Author": "Joe Abercrombie",
+    "Price": 325,
+    "Genre": "Fantasy",
+    "Pages": 515,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1284167912l/944073._SX318_SY475_.jpg"
+  },
+  {
+    "Title": "Last Arguments Of Kings",
+    "Author": "Joe Abercrombie",
+    "Price": 480,
+    "Genre": "Fantasy",
+    "Pages": 536,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1302062699l/944076.jpg"
+  },
+  {
+    "Title": "22/11/63",
+    "Author": "Stephen King",
+    "Price": 515,
+    "Genre": "Fiction",
+    "Pages": 600,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327876792l/10644930.jpg"
+  },
+  {
+    "Title": "The Immortal Life of Henrietta Lacks",
+    "Author": "Rebecca Skloot",
+    "Price": 450,
+    "Genre": "Biography",
+    "Pages": 464,
+    "Type": "Paperback",
+    "GoodReadsRating": 4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327878144l/6493208.jpg"
+  },
+  {
+    "Title": "The Sword of Kaigen",
+    "Author": "M.L. Wang",
+    "Price": 200,
+    "Genre": "Fantasy",
+    "Pages": 651,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546137241l/41886271.jpg"
+  },
+  {
+    "Title": "A Monster Calls",
+    "Author": "Patrcik Ness",
+    "Price": 251,
+    "Genre": "Fiction",
+    "Pages": 237,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430763000l/25480342.jpg"
+  },
+  {
+    "Title": "Long Walk to Freedom",
+    "Author": "Nelson Mandela",
+    "Price": 499,
+    "Genre": "Biography",
+    "Pages": 784,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380493068l/17992765.jpg"
+  },
+  {
+    "Title": "The Sword of Summer",
+    "Author": "Rick Riordan",
+    "Price": 300,
+    "Genre": "Fantasy",
+    "Pages": 500,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434701340l/15724396.jpg"
+  },
+  {
+    "Title": "The Hammer of Thor",
+    "Author": "Rick Riordan",
+    "Price": 295,
+    "Genre": "Fantasy",
+    "Pages": 459,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567236708l/27904311.jpg"
+  },
+  {
+    "Title": "The Ship of Dead",
+    "Author": "Rick Riordan",
+    "Price": 357,
+    "Genre": "Fantasy",
+    "Pages": 460,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.3,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493178281l/28006120.jpg"
+  },
+  {
+    "Title": "I Know Why the Caged Bird Sings",
+    "Author": "Maya Angelou",
+    "Price": 405,
+    "Genre": "Biography",
+    "Pages": 320,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327957927l/13214.jpg"
+  },
+  {
+    "Title": "The Eye of the World",
+    "Author": "Robert Jordan",
+    "Price": 296,
+    "Genre": "Fantasy",
+    "Pages": 334,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337818095l/228665.jpg"
+  },
+  {
+    "Title": "The Great Hunt",
+    "Author": "Robert Jordan",
+    "Price": 224,
+    "Genre": "Fantasy",
+    "Pages": 782,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437870280l/233649._SY475_.jpg"
+  },
+  {
+    "Title": "Dragon Reborn",
+    "Author": "Robert Jordan",
+    "Price": 410,
+    "Genre": "Fantasy",
+    "Pages": 681,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480096580l/34897._SX318_.jpg"
+  },
+  {
+    "Title": "The Shadow Rising",
+    "Author": "Robert Jordan",
+    "Price": 413,
+    "Genre": "Fantasy",
+    "Pages": 675,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470841890l/9539.jpg"
+  },
+  {
+    "Title": "The Path of Daggers",
+    "Author": "Robert Jordan",
+    "Price": 392,
+    "Genre": "Fantasy",
+    "Pages": 981,
+    "Type": "Hardcover",
+    "GoodReadsRating": 3.9,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390508613l/140974.jpg"
+  },
+  {
+    "Title": "The Towers of Midnight",
+    "Author": "Robert Jordan",
+    "Price": 385,
+    "Genre": "Fantasy",
+    "Pages": 864,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358109459l/8253920.jpg"
+  },
+  {
+    "Title": "A Memory of Light",
+    "Author": "Robert Jordan",
+    "Price": 405,
+    "Genre": "Fantasy",
+    "Pages": 912,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336055749l/7743175.jpg"
+  },
+  {
+    "Title": "Knife in Dreams",
+    "Author": "Robert Jordan",
+    "Price": 385,
+    "Genre": "Fantasy",
+    "Pages": 837,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397856387l/13888.jpg"
+  },
+  {
+    "Title": "New Spring",
+    "Author": "Robert Jordan",
+    "Price": 941,
+    "Genre": "Fantasy",
+    "Pages": 334,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328959234l/187065.jpg"
+  },
+  {
+    "Title": "The Fires of Heavens",
+    "Author": "Robert Jordan",
+    "Price": 400,
+    "Genre": "Fantasy",
+    "Pages": 987,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327866286l/13895.jpg"
+  },
+  {
+    "Title": "Lord of Chaos",
+    "Author": "Robert Jordan",
+    "Price": 385,
+    "Genre": "Fantasy",
+    "Pages": 963,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480096417l/35231._SY475_.jpg"
+  },
+  {
+    "Title": "The Gathering of Storm",
+    "Author": "Robert Jordan",
+    "Price": 489,
+    "Genre": "Fantasy",
+    "Pages": 766,
+    "Type": "Hardcover",
+    "GoodReadsRating": 4.4,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442815923l/1166599._SY475_.jpg"
+  },
+  {
+    "Title": "7 Habits of Highly Effective People",
+    "Author": "Stephen Covey",
+    "Price": 235,
+    "Genre": "Self help",
+    "Pages": 91,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.1,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421842784l/36072.jpgg"
+  },
+  {
+    "Title": "Diary of young girl : Anne Frank",
+    "Author": "Anne Frank",
+    "Price": 411,
+    "Genre": "Biography",
+    "Pages": 100,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.5,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560816565l/48855.jpg"
+  },
+  {
+    "Title": "Wings of Fire",
+    "Author": "APJ Abdul Kalam",
+    "Price": 735,
+    "Genre": "Biography",
+    "Pages": 187,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588286863l/634583._SY475_.jpg"
+  },
+  {
+    "Title": "Murder on the Orient Express",
+    "Author": "Agatha Christie",
+    "Price": 171,
+    "Genre": "Fiction",
+    "Pages": 256,
+    "Type": "Paperback",
+    "GoodReadsRating": 4.2,
+    "URL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486131451l/853510._SY475_.jpg"
+  }
+]
