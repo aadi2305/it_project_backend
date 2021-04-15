@@ -38,14 +38,17 @@ class Cart1(models.Model):
     userFK = models.ForeignKey(Users,on_delete=models.CASCADE, blank=True, null=True)
     #We need a Model which will add the particular books that the user adds to his/her cart.
 
-class Wishlist(models.Model):
-    pass
+class Wishlist1(models.Model):
+    bookFK = models.ForeignKey(books, on_delete=models.CASCADE, blank=True, null=True)
+    userFK = models.ForeignKey(Users,on_delete=models.CASCADE, blank=True, null=True)
     # bookwishFK = models.ForeignKey(books,on_delete=models.CASCADE, blank=True, null=True)
     #The wishlist will be referencing the cartId and also the userId.
 
-class Ordered(models.Model):
+class Ordered1(models.Model):
     Status = models.BooleanField(default=False)
+    userFK = models.ForeignKey(Users,on_delete=models.CASCADE, blank=True, null=True)
+    bookFK = models.ForeignKey(books, on_delete=models.CASCADE, blank = True, null= True)
     # orderedBooksFK = models.ForeignKey(books,on_delete=models.CASCADE, blank=True, null=True)
     # userFK = models.ForeignKey(Users, on_delete=models.CASCADE, blank=True, null=True)
     #The wishlist will be referencing the cartId and also the userId.
-    
+

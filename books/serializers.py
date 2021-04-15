@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Users, Address, books , Cart1
+from .models import Users, Address, books , Cart1, Wishlist1, Ordered1
 
 
 
@@ -40,3 +40,13 @@ class sendCartSerializers(serializers.ModelSerializer):
     class Meta:
         model = Cart1
         fields = ("bookFK", "userFK")
+
+class sendWishlistSerializer(serializers.ModelSerializer):
+    class Meta:
+        model  = Wishlist1
+        fields = ("bookFK", "userFK")
+
+class orderedListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Ordered1
+        fields = ("userFK", "cartFK")

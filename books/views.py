@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import books, Users, Address, Cart1
+from .models import books, Users, Address, Cart1, Wishlist1, Ordered1
 from rest_framework import generics, status
-from .serializers import  CreateUserSerializer, CreateAddressSerializer, searchByNameSerializer, searchResultSerializer, searchByGenreSerializer, sendCartSerializers
+from .serializers import  CreateUserSerializer, CreateAddressSerializer, searchByNameSerializer, searchResultSerializer, searchByGenreSerializer, sendCartSerializers, sendWishlistSerializer
 from rest_framework.views import APIView
 import json
 from rest_framework.response import Response
@@ -64,6 +64,17 @@ class CreateAddress(APIView):
 
         return Response({'Bad Request': 'Invalid data...'}, status=status.HTTP_400_BAD_REQUEST)
 
+
+def SendAllBooks(request):
+    allBooks = books.objects.all()
+    convertedList = []
+    for book in allBooks:
+        convertedList.append(searchResultSerializer(book).data)
+    json_object = json.dumps(convertedList, indent = 4) 
+    return HttpResponse(json_object)
+    
+
+
 class searchByName(APIView):
     serializer_class = searchByNameSerializer
 
@@ -114,13 +125,57 @@ class sendCartInfo(APIView):
 class addToCartInfo(APIView):
     def post(self, request, format=None):
         data=request.data
-        name = data["name"]
+        email = data["email"]
         title = data["title"]
-        user = Users.objects.filter(name = name)
+        user = Users.objects.filter(email = email)
         book1 = books.objects.filter(title = title)
         newCart = Cart1(bookFK = book1[0], userFK = user[0])
         newCart.save()
         return Response("", status=status.HTTP_200_OK)
 
+#de
 
+class addToWishlist(APIView):
+    def post(self, request, format=None):
+        data=request.data
+        email = data["email"]
+        title = data["title"]
+        user = Users.objects.filter(email = email)
+        book1 = books.objects.filter(title = title)
+        newWishlist = Wishlist1(bookFK = book1[0], userFK = user[0])
+        newWishlist.save()
+        return Response("", status=status.HTTP_200_OK)
+
+class sendWishlistInfo(APIView):
+    serializer_class = CreateUserSerializer
+
+    def post(self, request, format=None):
+        serializer = self.serializer_class(data=request.data)
+        if serializer.is_valid():
+            email = serializer.data.get('email')
+            userId = Users.objects.filter(email = email)
+            # userId = [mihir]
+            searchResult = Wishlist1.objects.filter(userFK = userId[0])
+            convertedList = []
+            for wishlist in searchResult:
+                searchResultForBooks = books.objects.filter(id = sendWishlistSerializer(wishlist).data["bookFK"])
+                convertedList.append(searchResultSerializer(searchResultForBooks[0]).data)
+            return Response(convertedList, status=status.HTTP_200_OK)
+
+        return Response({'Bad Request': 'Invalid data...'}, status=status.HTTP_400_BAD_REQUEST)
+
+class addToOrderedList(APIView):
+    def post(self, request, format=None):
+        data=request.data
+        name = data["name"]
+        title = data["title"]
+        user = Users.objects.filter(name = name)
+        book1 = books.objects.filter(title = title)
+        newOrder = Ordered1(bookFK = book1[0], userFK = user[0])
+        newOrder.save()
+        # deleteCart = Cart1.objects.filter(userFK = user)
+        # deleteCart = deleteCart.filter(bookFK = book1)
+        # deleteCart.delete()
+        # print(data)
+        return Response("", status=status.HTTP_200_OK)
 
