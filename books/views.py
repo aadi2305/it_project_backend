@@ -5,6 +5,7 @@ from rest_framework import generics, status
 from .serializers import  CreateUserSerializer, CreateAddressSerializer, searchByNameSerializer, searchResultSerializer, searchByGenreSerializer, sendCartSerializers, sendWishlistSerializer
 from rest_framework.views import APIView
 import json
+from django.db.models import Q
 from rest_framework.response import Response
 # Create your views here.
 def yo(request):
@@ -108,11 +109,11 @@ class sendCartInfo(APIView):
     def post(self, request, format=None):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
-            name = serializer.data.get('name')
-            userId = Users.objects.filter(name = name)
-            # userId = [mihir]
+            email = serializer.data.get('email')
+            userId = Users.objects.filter(email = email)
             searchResult = Cart1.objects.filter(userFK = userId[0])
             convertedList = []
+            print(convertedList)
             for cart in searchResult:
                 searchResultForBooks = books.objects.filter(id = sendCartSerializers(cart).data["bookFK"])
                 convertedList.append(searchResultSerializer(searchResultForBooks[0]).data)
@@ -164,18 +165,46 @@ class sendWishlistInfo(APIView):
 
         return Response({'Bad Request': 'Invalid data...'}, status=status.HTTP_400_BAD_REQUEST)
 
+
+
+def intersection(lst1, lst2):
+    lst3 = [value for value in lst1 if value in lst2]
+    return lst3
+
 class addToOrderedList(APIView):
     def post(self, request, format=None):
         data=request.data
-        name = data["name"]
+        email = data["email"]
         title = data["title"]
-        user = Users.objects.filter(name = name)
+        user = Users.objects.filter(email = email)
         book1 = books.objects.filter(title = title)
         newOrder = Ordered1(bookFK = book1[0], userFK = user[0])
         newOrder.save()
-        # deleteCart = Cart1.objects.filter(userFK = user)
-        # deleteCart = deleteCart.filter(bookFK = book1)
-        # deleteCart.delete()
-        # print(data)
+        deleteCart1 = Cart1.objects.filter(bookFK = book1[0], userFK = user[0])
+        deleteCart1.delete()
         return Response("", status=status.HTTP_200_OK)
+
+class removeFromCart(APIView):
+    def post(self, request, format=None):
+        data=request.data
+        email = data["email"]
+        title = data["title"]
+        user = Users.objects.filter(email = email)
+        book1 = books.objects.filter(title = title)
+        deleteCart1 = Cart1.objects.filter(bookFK = book1[0], userFK = user[0])
+        deleteCart1.delete()
+        return Response("", status=status.HTTP_200_OK)
+
+
+class SendToOrderedList(APIView):
+    def post(self, request, format=None):
+        data=request.data
+        email = data["email"]
+        user = Users.objects.filter(email = email)
+        bookssss = Ordered1.objects.filter(userFK = user[0])
+        convertedList = []
+        for wishlist in bookssss:
+            searchResultForBooks = books.objects.filter(id = sendWishlistSerializer(wishlist).data["bookFK"])
+            convertedList.append(searchResultSerializer(searchResultForBooks[0]).data)
+        return Response(convertedList, status=status.HTTP_200_OK)
 
